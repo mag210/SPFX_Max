@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/reactGetItems/ReactGetItemsWebPart.js",
+      "manifest": "./src/webparts/reactGetItems/ReactGetItemsWebPart.manifest.json",
+      "outputPath": "./dist/react-get-items.bundle.js"
+    }
+  ],
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-2.1.1.min.js",
+      "globalName": "jQuery"
+    }
+  },
+  "localizedResources": {
+    "reactGetItemsStrings": "webparts/reactGetItems/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "bb79e54c-4d8a-4767-8ec2-0b1c9f264c77",
+  "alias": "GetUserProfilePropertiesWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "bb79e54c-4d8a-4767-8ec2-0b1c9f264c77",
+    "group": { "default": "Under Development" },
+    "title": { "default": "GetUserProfileProperties" },
+    "description": { "default": "Retrieve User Properties using SharePoint Framework" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "GetUserProfileProperties"
+    }
+  }]
+}

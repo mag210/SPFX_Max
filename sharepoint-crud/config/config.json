@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/reactCrud/ReactCrudWebPart.js",
+      "manifest": "./src/webparts/reactCrud/ReactCrudWebPart.manifest.json",
+      "outputPath": "./dist/react-crud.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/noFrameworkCrud/NoFrameworkCrudWebPart.js",
+      "manifest": "./src/webparts/noFrameworkCrud/NoFrameworkCrudWebPart.manifest.json",
+      "outputPath": "./dist/no-framework-crud.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/angularCrud/AngularCrudWebPart.js",
+      "manifest": "./src/webparts/angularCrud/AngularCrudWebPart.manifest.json",
+      "outputPath": "./dist/angular-crud.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/spPnPJsCrud/SpPnPJsCrudWebPart.js",
+      "manifest": "./src/webparts/spPnPJsCrud/SpPnPJsCrudWebPart.manifest.json",
+      "outputPath": "./dist/sp-pn-p-js-crud.bundle.js"
+    }
+  ],
+  "externals": {
+    "angular": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js",
+      "globalName": "angular"
+    },
+    "ng-office-ui-fabric": "https://cdnjs.cloudflare.com/ajax/libs/ngOfficeUiFabric/0.12.3/ngOfficeUiFabric.js"
+  },
+  "localizedResources": {
+    "reactCrudStrings": "webparts/reactCrud/loc/{locale}.js",
+    "noFrameworkCrudStrings": "webparts/noFrameworkCrud/loc/{locale}.js",
+    "angularCrudStrings": "webparts/angularCrud/loc/{locale}.js",
+    "spPnPJsCrudStrings": "webparts/spPnPJsCrud/loc/{locale}.js"
+  }
+}

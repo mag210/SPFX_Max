@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.1.1",
+    "libraryName": "get-user-profile-properties",
+    "libraryId": "494262fd-1920-4ee6-b5f2-f42399d1137e",
+    "environment": "spo"
+  }
+}

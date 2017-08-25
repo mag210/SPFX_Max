@@ -1,0 +1,6 @@
+{
+  "workingDir": "./temp/deploy/",
+  "account": "<!-- STORAGE ACCOUNT NAME -->",
+  "container": "get-user-profile-properties",
+  "accessKey": "<!-- ACCESS KEY -->"
+}

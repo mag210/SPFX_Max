@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/getUserProfileProperties/GetUserProfilePropertiesWebPart.js",
+      "manifest": "./src/webparts/getUserProfileProperties/GetUserProfilePropertiesWebPart.manifest.json",
+      "outputPath": "./dist/get-user-profile-properties.bundle.js"
+    }
+  ],
+  "externals": {
+  },
+  "localizedResources": {
+    "getUserProfilePropertiesStrings": "webparts/getUserProfileProperties/loc/{locale}.js"
+  }
+}

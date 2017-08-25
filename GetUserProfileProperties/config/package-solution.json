@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "get-user-profile-properties-client-side-solution",
+    "id": "494262fd-1920-4ee6-b5f2-f42399d1137e",
+    "version": "1.0.0.3"
+  },
+  "paths": {
+    "zippedPackage": "solution/get-user-profile-properties.sppkg"
+  }
+}
