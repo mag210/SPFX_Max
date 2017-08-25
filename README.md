@@ -2,5 +2,5 @@
 SPFX_Max_Samples
 
 
-Download the repo. For each project navigate to the project directory and run npm i to install dependancies. 
+Download the repo. For each project navigate to the project directory and run npm i to install dependencies. 
 Gulp Serve to deploy to the SharePoint Workbench
