@@ -13,8 +13,7 @@ import { IHelloWorldReactProps } from './components/IHelloWorldReactProps';
 import { IHelloWorldReactWebPartProps } from './IHelloWorldReactWebPartProps';
 
 
-import ListBasicExample from './components/ListBasicExample';
-//import { IListBasicExampleProps } from './components/IListBasicExampleProps';
+
 
 
 export default class HelloWorldReactWebPart extends BaseClientSideWebPart<IHelloWorldReactWebPartProps> {
@@ -24,7 +23,8 @@ export default class HelloWorldReactWebPart extends BaseClientSideWebPart<IHello
       HelloWorldReact,
       {
         HttpClient: this.context.httpClient,
-        description: this.properties.description
+        description: this.properties.description,
+        items: this.properties.items 
       },
      
     );
